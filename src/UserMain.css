@@ -1,3 +1,11 @@
+/*
+ * @name CustomEffects
+ * @author SerStars, Happy Enderman
+ * @version 1.0.0
+ * @description Use Custom Profile Effect on your Discord Account
+ * @source https://github.com/CustomEffects/CustomEffectsTheme
+*/
+
 @property --custom-pe {
 	syntax: "<image> | none";
 	inherits: true;
