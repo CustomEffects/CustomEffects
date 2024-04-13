@@ -6,5 +6,43 @@
  * @source https://github.com/CustomEffects/CustomEffectsTheme
 */
 
+/* These do nothing, i know, just wait */
 @import url("https://customeffects.github.io/CustomEffectsTheme/src/UserMain.css");
 @import url("https://customeffects.github.io/CustomEffectsTheme/Users.css");
+
+@property --custom-pe {
+	syntax: "<image> | none";
+	inherits: true;
+	initial-value: url(" ");
+}
+
+[class^="profileEffects"] {
+	display: none;
+}
+
+/* is it really needed? */
+[class^="profileEffectShopPreview"] [class^="profileEffects"] {
+	display: revert;
+}
+
+[class*="userProfileInner"]::after {
+	transition: opacity 0.6s ease-in-out;
+	background: var(--custom-pe);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	pointer-events:none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: 1;
+	opacity: 1;
+}
+
+[class*="userProfileInner"]:hover::after {
+	opacity: 0.35;
+}
+
+[aria-label*="861631850681729045"], [id="popout_28"] {
+    --custom-pe: url("https://raw.githubusercontent.com/CustomEffects/db/main/effects/861631850681729045.png");
+}
