@@ -14,4 +14,4 @@ You can find our database [here][db]
 
 [db]: https://github.com/CustomEffects/db
 
-[server]: https://discord.gg/
+[server]: https://discord.gg/EUM3spHREG
