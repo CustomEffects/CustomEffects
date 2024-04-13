@@ -1,0 +1,5 @@
+@import url("https://customeffects.github.io/CustomEffectsTheme/src/UserMain.css");
+
+[aria-label*=""], [id="popout_28"] {
+    --custom-pe: url("");
+}
