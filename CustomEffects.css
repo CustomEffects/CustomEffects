@@ -46,3 +46,7 @@
 [aria-label*="serstars"], [id="popout_28"] {
     --custom-pe: url("https://customeffects.github.io/db/effects/861631850681729045.png");
 }
+
+[aria-label*="neinkatze"], [id="popout_28"] {
+    --custom-pe: url("https://customeffects.github.io/db/effects/1125315673829154837.gif");
+}
