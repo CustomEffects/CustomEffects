@@ -4,37 +4,30 @@
  * @version 1.0.0
  * @description Use Custom Profile Effect on your Discord Account
  * @source https://github.com/CustomEffects/CustomEffectsTheme
+ * @server https://discord.gg/EUM3spHREG
 */
+@import url('https://customeffects.github.io/CustomEffectsTheme/src/data.css');
 
-@property --custom-pe {
-	syntax: "<image> | none";
-	inherits: true;
-	initial-value: url(" ");
-}
-
-[class^="profileEffects"] {
-	display: none;
-}
-
-/* is it really needed? */
 [class^="profileEffectShopPreview"] [class^="profileEffects"] {
 	display: revert;
 }
 
 [class*="userProfileInner"]::after {
-	transition: opacity 0.6s ease-in-out;
-	background: var(--custom-pe);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	pointer-events:none;
-	position: absolute;
-	height: 100%;
-	width: 100%;
 	content: "";
+	background: var(--custom-effects-sh);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	pointer-events:none;
 	z-index: 1;
 	opacity: 1;
+	transition: opacity 0.6s ease-in-out;
 }
-
 [class*="userProfileInner"]:hover::after {
-	opacity: 0.35;
+	opacity: 0.20;
+}
+[class*="userProfileModalInner"]::after, [class*="userPopoutInner"]::after {
+	margin: -4px;
 }

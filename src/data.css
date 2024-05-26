@@ -1,0 +1,50 @@
+/*
+ * @name CustomEffects
+ * @author SerStars, Happy Enderman
+ * @version 1.0.0
+ * @description Use Custom Profile Effect on your Discord Account
+ * @source https://github.com/CustomEffects/CustomEffectsTheme
+ * @server https://discord.gg/EUM3spHREG
+*/
+
+/* happy.enderman */
+[aria-label="happy.enderman"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/loop.png");
+}
+[aria-label="happy.enderman"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="happy.enderman"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="happy.enderman"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
+
+/* serstars */
+[aria-label="serstars"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/idle_8739289c.png");
+}
+[aria-label="serstars"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="serstars"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="serstars"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
+
+/* wont.stream */
+[aria-label="wont.stream"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/db/effects/1125315673829154837.png");
+}
+[aria-label="wont.stream"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="wont.stream"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="wont.stream"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}

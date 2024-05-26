@@ -1,6 +1,6 @@
 # CustomEffectsTheme
 
-#### To install CustomEffects, open Vencord, go to your Themes in Settings and click on "Online Themes". Afterwards paste this link:
+#### To install CustomEffects, open Vencord (or any other mod), go to your Themes in Settings and click on "Online Themes". Afterwards paste this link:
 > https://customeffects.github.io/CustomEffectsTheme/CustomEffects.css
 
 Please join our [Discord Server][server], there is where you can find Presets, Support and Request Custom Effects!
