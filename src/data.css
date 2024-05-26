@@ -23,7 +23,7 @@
 
 /* serstars */
 [aria-label="serstars"] [class*="userProfile"] {
-	--custom-effects-sh: url("https://cdn.discordapp.com/assets/profile_effects/effects/2024-03-21/the-immortal-clove/idle_8739289c.png");
+	--custom-effects-sh: url("https://customeffects.github.io/DefaultEffects/Assets/DoorsGuidingLight.png");
 }
 [aria-label="serstars"] [class*="userProfile"] [class^="profileEffects"] {
 	display: none;
