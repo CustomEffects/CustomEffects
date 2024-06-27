@@ -31,3 +31,7 @@
 [class*="WithBanner"]::after, [class*="PremiumWithoutBanner"]::after {
 	margin: -4px;
 }
+
+[class*="Unthemed"] [class*="userProfile"]::after {
+    margin: 0px;
+}
