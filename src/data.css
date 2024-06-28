@@ -7,20 +7,6 @@
  * @server https://discord.gg/EUM3spHREG
 */
 
-/* happy.enderman */
-[aria-label="happy.enderman"] [class*="userProfile"] {
-	--custom-effects-sh: url("https://cdn.discordapp.com/assets/profile_effects/effects/2023-11-20/boost-relic/loop.png");
-}
-[aria-label="happy.enderman"] [class*="userProfile"] [class^="profileEffects"] {
-	display: none;
-}
-[aria-label="happy.enderman"] [id*="userPopout"] [class^="profileEffects"] {
-	display: none;
-}
-[aria-label="happy.enderman"] [class*="root"] [class^="profileEffects"] {
-	display: none;
-}
-
 /* serstars */
 [aria-label="serstars"] [class*="userProfile"] {
 	--custom-effects-sh: url("https://customeffects.github.io/DefaultEffects/Assets/DoorsGuidingLight.png");
