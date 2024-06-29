@@ -34,3 +34,17 @@
 [aria-label="wont.stream"] [class*="root"] [class^="profileEffects"] {
 	display: none;
 }
+
+/* tamkerra */
+[aria-label="tamkerra"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/DefaultEffects/Assets/DoorsGuidingLight.png");
+}
+[aria-label="tamkerra"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="tamkerra"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="tamkerra"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
