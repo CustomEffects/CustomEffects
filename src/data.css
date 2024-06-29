@@ -21,6 +21,21 @@
 	display: none;
 }
 
+/* CustomEffectsBot */
+[aria-label="CustomEffects#5628"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/.github/assets/CustomEffectsLogo.png");
+}
+[aria-label="CustomEffects#5628"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="CustomEffects#5628"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="CustomEffects#5628"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
+
+
 /* wont.stream */
 [aria-label="wont.stream"] [class*="userProfile"] {
 	--custom-effects-sh: url("https://customeffects.github.io/db/effects/1125315673829154837.png");
