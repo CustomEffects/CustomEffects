@@ -21,6 +21,20 @@
 	display: none;
 }
 
+/* happy.enderman */
+[aria-label="happy.enderman"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/DefaultEffects/Assets/Assets/Smile.gif");
+}
+[aria-label="happy.enderman"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="happy.enderman"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="happy.enderman"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
+
 /* CustomEffectsBot */
 [aria-label="CustomEffects#5628"] [class*="userProfile"] {
 	--custom-effects-sh: url("https://customeffects.github.io/.github/assets/CustomEffectsLogo.png");
