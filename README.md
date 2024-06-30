@@ -17,7 +17,7 @@ You can simply add https://customeffects.github.io/CustomEffects/CustomEffects.c
 ```css
 @import url(https://customeffects.github.io/CustomEffects/CustomEffects.css);
 ```
-or install the CustomEffects.css file and add it to your themes.
+or install the [CustomEffects.css][themelink] file and add it to your themes.
 
 ## Supported Client Mods
 Below are the client mods that will work for sure. If there are other client mods work join or Discord server and contact our team or open a PR.
@@ -32,3 +32,5 @@ If you have any issues, we can help you in our #support channel in the [Discord 
 [db]: https://github.com/CustomEffects/db
 
 [server]: https://discord.gg/EUM3spHREG
+
+[themelink]: https://customeffects.github.io/CustomEffects/CustomEffects.css
