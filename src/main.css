@@ -6,7 +6,7 @@
  * @source https://github.com/CustomEffects/CustomEffectsTheme
  * @server https://discord.gg/EUM3spHREG
 */
-@import url('https://customeffects.github.io/CustomEffectsTheme/src/data.css');
+@import url('https://customeffects.github.io/CustomEffects/src/data.css');
 
 [class^="profileEffectShopPreview"] [class^="profileEffects"] {
 	display: revert;
