@@ -17,10 +17,11 @@ You can simply add https://customeffects.github.io/CustomEffects/CustomEffects.c
 ```css
 @import url(https://customeffects.github.io/CustomEffects/CustomEffects.css);
 ```
-or install the [CustomEffects.css][themelink] file and add it to your themes.
+or download the [CustomEffects.css][themelink] file and add it to your themes.
 
 ## Supported Client Mods
-Below are the client mods that will work for sure. If there are other client mods work join or Discord server and contact our team or open a PR.
+Below are the client mods that will work for sure.
+<br>If there are other client mods that work, join our Discord server and contact our team or open a PR.
 <div style="display: grid;">
   <a href="https://vencord.dev/"><img src="https://vencord.dev/assets/favicon.png" alt="Vencord" width="100"/></a>
   <a href="https://betterdiscord.app/"><img src="https://betterdiscord.app/resources/branding/logo_solid.png" alt="BetterDiscord" width="100"/></a>
