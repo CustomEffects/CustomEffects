@@ -1,5 +1,5 @@
 # CustomEffects
-CustomEffects is a theme that allows you to use custom profile effects in Discord without needing Nitro!
+CustomEffects is a plugin/theme that allows you to use custom profile effects in Discord without needing Nitro!
 
 ## How to Request a Custom Effect
 1. Join our [CustomEffects Discord Server][server].
