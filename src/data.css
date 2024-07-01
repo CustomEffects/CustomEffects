@@ -35,6 +35,20 @@
 	display: none;
 }
 
+/* DTACat */
+[aria-label="yanoiwascat"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/db/effects/1169899815983915121.png");
+}
+[aria-label="yanoiwascat"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="yanoiwascat"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="yanoiwascat"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
+
 /* CustomEffectsBot */
 [aria-label="CustomEffects#5628"] [class*="userProfile"] {
 	--custom-effects-sh: url("https://customeffects.github.io/.github/assets/CustomEffectsLogo.png");
@@ -48,7 +62,6 @@
 [aria-label="CustomEffects#5628"] [class*="root"] [class^="profileEffects"] {
 	display: none;
 }
-
 
 /* wont.stream */
 [aria-label="wont.stream"] [class*="userProfile"] {
