@@ -93,7 +93,7 @@
 
 /* rshiba */
 [aria-label="rshiba"] [class*="userProfile"] {
-	--custom-effects-sh: url("https://customeffects.github.io/db/effects/270321582319206400.png");
+	--custom-effects-sh: url("https://customeffects.github.io/db/effects/270321582319206400.gif");
 }
 [aria-label="rshiba"] [class*="userProfile"] [class^="profileEffects"] {
 	display: none;
