@@ -90,3 +90,17 @@
 [aria-label="tamkerra"] [class*="root"] [class^="profileEffects"] {
 	display: none;
 }
+
+/* rshiba */
+[aria-label="rshiba"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/db/effects/270321582319206400.png");
+}
+[aria-label="rshiba"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="rshiba"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="rshiba"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
