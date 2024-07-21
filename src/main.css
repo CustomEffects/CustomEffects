@@ -1,7 +1,7 @@
 /**
  * @name CustomEffects
  * @author SerStars, Happy Enderman
- * @version 1.0.1
+ * @version 1.2.0
  * @description Use Custom Profile Effects on your Discord Profile
  * @source https://github.com/CustomEffects/CustomEffects
  * @server https://discord.gg/EUM3spHREG
@@ -26,13 +26,17 @@
 	opacity: 1;
 	transition: opacity 0.6s ease-in-out;
 }
+
 [class*="userProfileInner"]:hover::after {
 	opacity: 0.20;
 }
-[class*="WithBanner"]::after, [class*="PremiumWithoutBanner"]::after {
-	margin: -4px;
-}
 
-[class*="Unthemed"] [class*="userProfile"]::after {
-    margin: 0px;
+[class*="userProfile"]:has([style*="https://cdn.discordapp.com/banners/"]),
+[class*="userProfile"]:has([style*="https://usrbg.is-hardly.online/usrbg/"]),
+[class*="userProfile"]:has([style*="https://customeffects.github.io/db/effects/"]),
+[class*="userProfile"]:has([style*="https://customeffects.github.io/DefaultEffects/Assets/"]) [class*="userProfileInner"]::after {
+	margin-left: -4px;
+	margin-right: -4px;
+	margin-top: -4px;
+	margin-bottom: -4px
 }
