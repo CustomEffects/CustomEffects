@@ -104,3 +104,17 @@
 [aria-label="rshiba"] [class*="root"] [class^="profileEffects"] {
 	display: none;
 }
+
+/* mjfmjofficial */
+[aria-label="mjfmjofficial"] [class*="userProfile"] {
+	--custom-effects-sh: url("https://customeffects.github.io/DefaultEffects/Assets/Smile.gif");
+}
+[aria-label="mjfmjofficial"] [class*="userProfile"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="mjfmjofficial"] [id*="userPopout"] [class^="profileEffects"] {
+	display: none;
+}
+[aria-label="mjfmjofficial"] [class*="root"] [class^="profileEffects"] {
+	display: none;
+}
